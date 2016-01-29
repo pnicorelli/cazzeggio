@@ -14,11 +14,14 @@ app.get('/', function(req, res){
       myHtml += '<br><br><br>';
       myHtml += '<button onclick="location.reload();">Ricarica</button>';
       myHtml += '<br><br><br>';
-      myHtml += 'powerd by cazzeggio';
+      myHtml += 'powerd by <a href="/credits">cazzeggio</a>';
       res.send(myHtml);
     }
   })
+});
 
+app.get('/credits', function(req, res){
+      res.send('Siamo al cazzeggio!!!!');
 });
 
 port = process.env.PORT || 3000;
