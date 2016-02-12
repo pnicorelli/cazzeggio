@@ -1,0 +1,22 @@
+{
+  "name": "ds_test",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Paolo -Willy- Nicorelli <p.nicorelli@gmail.com>"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "socket.io-client": "~1.4.5",
+    "jquery": "~2.2.0"
+  }
+}
